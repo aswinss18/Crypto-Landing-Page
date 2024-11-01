@@ -10,8 +10,8 @@ export default function Navbar() {
     const theme = useTheme()
     return (
 
-        <Container maxWidth='lg' sx={{
-            display: 'flex', alignItems: 'center', justifyContent: "space-between", height: '64px', width: '100%', position: 'fixed', zIndex: 50, backgroundColor: theme.palette.primary.main
+        <Container maxWidth={false} sx={{
+            display: 'flex', alignItems: 'center', justifyContent: "space-around", height: '64px', width: '100%', position: 'fixed', top: 0, zIndex: 50, backgroundColor: theme.palette.primary.main
         }}>
             <Logo />
             <Box sx={{ display: 'flex', justifyContent: "flex-between", gap: '70px ', alignItems: 'center' }}>
