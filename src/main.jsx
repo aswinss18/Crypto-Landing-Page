@@ -20,7 +20,7 @@ const theme = createTheme({
   },
   typography: {
     h1: { fontSize: "60px", fontWeight: 500, color: "#ffffff", fontFamily: '"Plus Jakarta Sans", sans-serif', },
-    h2: { color: "#ffffff", fontFamily: '"Inter", sans-serif', },
+    h2: { color: "#ffffff", fontFamily: '"Plus Jakarta Sans", sans-serif', fontSize: '33px', fontWeight: 600, },
     p: { fontSize: "18px", fontWeight: 400, color: "#767799", fontFamily: '"Inter",sans-serif' }
   },
 })

@@ -10,7 +10,7 @@ export default function Divider() {
     return (
         <Container maxWidth={false} sx={{ backgroundColor: "#162446", height: '132px', display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', }}>
             {
-                brands.map(brands => <Brand imgSrc={brands} />)
+                brands.map((brands, i) => <Brand imgSrc={brands} key={i} />)
             }
         </Container>
     )

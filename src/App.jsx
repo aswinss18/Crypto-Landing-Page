@@ -2,6 +2,7 @@ import { Container } from "@mui/material"
 import Navbar from "./components/ui/Navbar"
 import Home from "./components/pages/Home"
 import Divider from "./components/ui/Divider"
+import Services from "./components/pages/Services"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <Divider />
+      <Services />
     </Container>
   )
 }
