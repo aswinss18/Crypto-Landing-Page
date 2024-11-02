@@ -3,6 +3,9 @@ import Navbar from "./components/ui/Navbar"
 import Home from "./components/pages/Home"
 import Divider from "./components/ui/Divider"
 import Services from "./components/pages/Services"
+import Features from "./components/pages/Features"
+import Working from "./components/ui/Working"
+import TestimonialSection from "./components/ui/TestimonialSection"
 
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <Home />
       <Divider />
       <Services />
+      <Features />
+      <Working />
+      <TestimonialSection />
     </Container>
   )
 }

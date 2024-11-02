@@ -2,6 +2,7 @@ import { Box, Container, Typography } from '@mui/material'
 import React from 'react'
 import ServiceCard from '../ui/ServiceCard'
 import { useTheme } from '@emotion/react'
+import Button from "../ui/Button"
 
 const servicesData = [{ icon: 'images/service1.png', heading: `Connect wallet & exchanges`, para: `Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut volup.` },
 { icon: 'images/service2.png', heading: `Connect wallet & exchanges`, para: `Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut volup.` },
@@ -24,7 +25,7 @@ export default function Services() {
                     <Box component='img' src='images/phone.png' sx={{ position: 'absolute', height: "450px", width: "230px", top: "22%", left: '27%' }} />
                     <Box component='img' src='images/star.svg' sx={{ position: 'absolute', height: "23px", width: "23px", top: "67%", left: '10%' }} />
                     <Box component='img' src='images/star.svg' sx={{ position: 'absolute', height: "33px", width: "33px", top: "18%", left: '80%' }} />
-                    <Box component='img' src='images/star.svg' sx={{ position: 'absolute', height: "17px", width: "17px", top: "70%", left: '88%' }} />
+                    <Box component='img' src='images/star.svg' sx={{ position: 'absolute', height: "17px", width: "17px", top: "70%", left: '95%' }} />
                 </Box>
                 <Box >
                     <Box>
@@ -49,9 +50,13 @@ export default function Services() {
 
                 </Box>
             </Box>
-            <Box>
-                <Box></Box>
-                <Box component='img' width='698px' height='698px' />
+            <Box sx={{ display: 'flex', gap: '50px', position: 'relative' }}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', gap: '40px', zIndex: 10 }}><Typography variant='h1'>Invite team members & enlarge your groups</Typography>
+                    <Typography variant='p'>Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas.</Typography>
+                    <Button type="primary">Explore Now</Button>
+                </Box>
+                <Box component='img' src='images/screen.png' sx={{ height: '440px', zIndex: 10 }} />
+                <Box component='img' src='images/Ellipse 175.png' sx={{ position: 'absolute', top: "-90%", left: "20%", transform: "rotate(180deg)" }} />
             </Box>
         </Container >
     )

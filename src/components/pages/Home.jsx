@@ -4,7 +4,7 @@ import Button from '../ui/Button'
 
 export default function Home() {
     return (
-        <Container sx={{ backgroundColor: 'primary.main', display: 'flex', justifyContent: 'center', alignItems: "center", paddingTop: '10%', }} maxWidth='lg'  >
+        <Container maxWidth='lg' sx={{ backgroundColor: 'primary.main', display: 'flex', justifyContent: 'center', alignItems: "center", paddingTop: '10%', }}   >
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: '50px', position: 'relative', }}>
                 <Box component='img' src='/images/Ellipse 172.png' sx={{ position: 'absolute', zIndex: 0, top: '-200px', right: '-30px', width: "740px", height: "740px", }}>
                 </Box>
