@@ -7,6 +7,7 @@ import Features from "./components/pages/Features"
 import Working from "./components/ui/Working"
 import TestimonialSection from "./components/ui/TestimonialSection"
 import About from "./components/pages/About"
+import Footer from "./components/ui/Footer"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Working />
       <TestimonialSection />
       <About />
+      <Footer />
     </Container>
   )
 }
