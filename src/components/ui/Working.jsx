@@ -60,7 +60,7 @@ export default function Working() {
             <Box sx={{ display: 'flex', flexDirection: 'column', zIndex: 1, gap: '50px' }}>
                 <Box>
 
-                    <Typography variant='h3' sx={{ color: theme.palette.tertiary.main, fontSize: "25px", fontWeight: 700 }}>How it works</Typography>
+                    <Typography variant='h3' sx={{ color: theme.palette.subHeadingColor.main, fontSize: "25px", fontWeight: 700 }}>How it works</Typography>
                     <Typography variant='h1'>Viewing long- term and short -term forcast</Typography>
                 </Box>
                 <Typography variant='p'>

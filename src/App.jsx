@@ -6,6 +6,7 @@ import Services from "./components/pages/Services"
 import Features from "./components/pages/Features"
 import Working from "./components/ui/Working"
 import TestimonialSection from "./components/ui/TestimonialSection"
+import About from "./components/pages/About"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Features />
       <Working />
       <TestimonialSection />
+      <About />
     </Container>
   )
 }

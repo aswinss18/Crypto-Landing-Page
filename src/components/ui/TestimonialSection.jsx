@@ -5,7 +5,7 @@ const testimonials = [{ name: 'Albert Flores', job: "Founder of GearUp", image: 
 
 export default function TestimonialSection() {
     return (
-        <Container maxWidth={false} sx={{ height: "884px", display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '60px' }}>
+        <Container maxWidth={false} sx={{ height: "884px", display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '60px', marginY: "100px" }}>
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '55%' }}>
                 <Typography variant='h1' sx={{ position: 'relative', marginBottom: "20px" }}>
                     <Box component='img' sx={{ position: 'absolute', left: "-17%", }} src='images/quote1.svg' />Testimonials<Box sx={{ position: 'absolute', right: "-17%" }} component='img' src='images/quote2.svg' />
